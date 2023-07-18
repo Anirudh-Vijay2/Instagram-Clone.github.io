@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            height: 800px;
+            width: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .post{
+            height: 600px;
+            width: 440px;
+            background-color: white;
+        }
+
+        .post-head{
+            background-color: dimgray;
+            height: 70px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .user-logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 35px;
+            width: 35px;
+            background-color: black;
+            border-radius: 50%;
+            z-index: 3;
+            border-top: 3.5px solid blue;
+            border-bottom: 3.5px solid yellow;
+            border-right: 3.5px solid rgb(6, 230, 69);
+            border-left: 3.5px solid rgba(169, 218, 22, 0.808);
+        }
+
+        .title-and-logo{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .username{
+            margin-left: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main" style="background-color: black;">
+       <div class="post">
+            <div class="post-head">
+                <div class="title-and-logo">
+                    <div class="user-logo"><i class='bx bx-user-circle' style='color:#ffffff; font-size: 31px;'></i></div>
+                    <div class="username">Unknown_usr</div>
+                </div>
+                <div class="three-dots"><i class='bx bx-dots-horizontal-rounded' style='color:#ffffff' ></i></div>
+            </div>
+
+            <div class="image">
+                
+            </div>
+       </div>
+
+    </div>
+</body>
+</html>

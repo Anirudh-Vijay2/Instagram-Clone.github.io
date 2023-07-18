@@ -1,0 +1,2 @@
+      <div class="user-logo"><i class='bx bx-user-circle' style='color:#ffffff; font-size: 31px;'></i></div>
+                            <div class="user-name">Unknown_usr</div>
